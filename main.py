@@ -33,7 +33,7 @@ val_dataloader=DataLoader(val_data,batch_size=bs,shuffle=False)
 
 #构建网络
 net=FCN8s(numclasses)
-optimizer=optim.SGD(net.parameters(),lr=lr,momentum=0.9,weight_decay=5e-4)
+optimizer=optim.SGD(net.parameters(),lr=lr,weight_decay=1e-4)
 criterion=nn.NLLLoss()
 if use_gpu:
     net.cuda()
