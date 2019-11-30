@@ -1,0 +1,9 @@
+
+ epoch:1, train_loss:1.2139, acc:0.6913, acc_cls:0.2198, mean_iu:0.1644, fwavacc:0.5308
+ epoch:1, val_loss:0.8709, acc:0.7338, acc_cls:0.4306, mean_iu:0.3036, fwavacc:0.5944
+ epoch:2, train_loss:0.9114, acc:0.7435, acc_cls:0.3321, mean_iu:0.2584, fwavacc:0.5963
+ epoch:2, val_loss:0.7681, acc:0.7663, acc_cls:0.4773, mean_iu:0.3530, fwavacc:0.6220
+ epoch:3, train_loss:0.8340, acc:0.7626, acc_cls:0.3893, mean_iu:0.3059, fwavacc:0.6211
+ epoch:3, val_loss:0.8223, acc:0.7496, acc_cls:0.4636, mean_iu:0.3320, fwavacc:0.6030
+ epoch:4, train_loss:0.7895, acc:0.7742, acc_cls:0.4212, mean_iu:0.3343, fwavacc:0.6358
+ epoch:4, val_loss:0.8789, acc:0.7378, acc_cls:0.4488, mean_iu:0.3107, fwavacc:0.5976
