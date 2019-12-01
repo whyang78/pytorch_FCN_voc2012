@@ -1,4 +1,4 @@
-#FCN  
+# FCN  
 1. 使用voc2012数据集进行分割实例训练测试。数据集建立详见 `utils/dataset.py`  
     ```
     mkdir data
