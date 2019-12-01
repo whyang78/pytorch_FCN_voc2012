@@ -32,7 +32,7 @@ train_dataloader=DataLoader(train_data,batch_size=bs,shuffle=True)
 val_dataloader=DataLoader(val_data,batch_size=bs,shuffle=False)
 
 #构建网络
-net=FCN8s(numclasses)
+net=FCN8x(numclasses)
 optimizer=optim.SGD(net.parameters(),lr=lr,weight_decay=1e-4)
 criterion=nn.NLLLoss()
 if use_gpu:
